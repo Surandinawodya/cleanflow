@@ -74,5 +74,5 @@ cleanflow/
 └── README.md
 
 👨‍💻 Author
-Neth – BSc (Hons) in Software Engineering
+Surandi-BSc (Hons) in Software Engineering
 GitHub: @surandinawodya
