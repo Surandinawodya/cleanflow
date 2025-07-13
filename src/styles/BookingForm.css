@@ -1,0 +1,82 @@
+.booking-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+ background: #e3dede;
+
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.booking-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #1e40af;
+  text-align: center;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #374151;
+  font-size: 1rem;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1.5px solid #d1d5db;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #3862bd ;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.4);
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+.submit-btn {
+  background-color: #3862bd;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1e40af;
+}
+/* Target datetime-local calendar icon and text */
+input[type="datetime-local"] {
+  color: #3862bd; /* Change input text color */
+}
+
+/* WebKit browsers: change calendar and time picker icon color */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  filter: invert(33%) sepia(46%) saturate(600%) hue-rotate(196deg) brightness(90%) contrast(95%);
+  cursor: pointer;
+}

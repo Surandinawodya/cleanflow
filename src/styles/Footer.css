@@ -1,0 +1,82 @@
+/* Footer base styling */
+footer {
+  background: linear-gradient(90deg, #06b6d4, #b3bfd2, #a3b2ff);
+  padding: 40px 0 20px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 -4px 6px rgba(99, 102, 241, 0.5);
+}
+
+/* Container for footer content */
+footer .max-w-6xl {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/* Footer sections */
+footer h2, footer h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+/* Paragraph and contact info */
+footer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #000000;
+}
+
+/* Social media icon styles */
+footer .social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  font-size: 1.4rem;
+  color: white;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  transform: scale(1.1);
+  color: #000000;
+}
+
+/* Bottom copyright */
+footer .bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Responsive layout tweaks */
+@media (max-width: 768px) {
+  footer .max-w-6xl {
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+
+  footer .social-icons {
+    justify-content: center;
+  }
+}
